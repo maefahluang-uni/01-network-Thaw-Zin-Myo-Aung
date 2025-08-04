@@ -53,7 +53,10 @@ Think about the following,  modify the code to experiment it and put your though
 - What would be the benefit of running many instances?
 
 ```
-  Your thought here...
+- To run MockServer on different, edit the code piece of the port number.
+- To run more then 2 instances of 'MockWebServer', Create a new thread with the server name and start the server.
+- To change the content in HTML, change the body of HTML code.
+- The benefits of running many instances is being able to carry out parallel testing on different end point and simulate multiple running multiple mircroservives at the same time.
 ```
 **Please push the code back to Github to submit this lab**
 After you push, ensure you have green checkmark on the repository.
