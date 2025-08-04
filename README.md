@@ -20,7 +20,8 @@ The `MockWebServer` in package `th.mfu` serves the web server in our system. It 
 4. Finally, close the client socket 
 5. Study the code in `main()` and tell me What it does?
 ```
- write your through here.
+In the main function, the start of the two pieces of codes are for implemention of runnable class through MockWebServer Class. First We create a thread of first **Server1** which is to point to the localhost port of **8080**. Ths second thread is similar but for the localhost port of **8081**.
+Each server is started using the start() function after being initialized. The next part of the codes are for the functionality to stop the server when any key is pressed. Any errors occured are handled through try catch block.
 ```
 6. Run the `main()`, point the web browser to `http://localhost:8080` and `http://localhost:8081`
 It should shows a simple HTML with the word such as  `Hello, Web! on Port 8080`.
